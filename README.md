@@ -1,44 +1,53 @@
-🍎 Fruit Basket – Jeu d’Addition (Unity)
-📘 Description du projet
-Fruit Basket est un mini‑jeu éducatif développé avec Unity, destiné à l’apprentissage de l’addition de manière ludique et interactive.
+
+---
+
+# 🍎 Fruit Basket – Jeu d’Addition (Unity)
+
+## 📘 Description du projet
+
+**Fruit Basket** est un mini-jeu éducatif développé avec **Unity**, destiné à l’apprentissage de l’addition de manière ludique et interactive.
 
 Le joueur doit glisser des fruits dans un panier.
 À chaque fruit ajouté, le compteur augmente pour afficher le nombre total de fruits dans le panier.
 
-Ce projet a été réalisé dans un cadre pédagogique pour faciliter la compréhension des opérations mathématiques de base.
+Ce projet a été réalisé dans un cadre pédagogique afin de faciliter la compréhension des opérations mathématiques de base.
 
-🎯 Objectifs pédagogiques
-Comprendre le principe de l’addition
+---
 
-Associer une action concrète (ajouter un fruit) à un calcul
+## 🎯 Objectifs pédagogiques
 
-Développer la logique et la coordination
+* Comprendre le principe de l’addition
+* Associer une action concrète (ajouter un fruit) à un calcul
+* Développer la logique et la coordination
+* Découvrir les bases du développement de jeux avec Unity et C#
 
-Découvrir les bases du développement de jeux avec Unity et C#
+---
 
-🕹️ Fonctionnalités
-🌳 Scène 3D avec environnement (Asset Store)
+## 🕹️ Fonctionnalités
 
-🍎 Fruits déplaçables à la souris (Drag & Drop)
+* 🌳 Scène 3D avec environnement (Asset Store)
+* 🍎 Fruits déplaçables à la souris (Drag & Drop)
+* 🧺 Panier interactif avec détection automatique
+* ➕ Compteur d’addition dynamique
 
-🧺 Panier interactif
+  * Exemple : `Fruits : 0 → 1 → 2 → 3 …`
+* 🔁 Bouton **Restart** pour recommencer la partie
+* 🎨 Interface simple et claire (UI + TextMeshPro)
 
-➕ Compteur d’addition (ex : Fruits : 0 → 1 → 2 → 3…)
+---
 
-🔁 Bouton Restart pour recommencer la partie
+## 🛠️ Technologies utilisées
 
-🎨 Interface simple et claire (UI)
+* **Unity** (version recommandée : 2021 LTS ou plus)
+* **C#**
+* **TextMeshPro**
+* **Assets 3D** (fruits, panier, environnement)
 
-🛠️ Technologies utilisées
-Unity (version recommandée : 2021 LTS ou plus)
+---
 
-C#
+## 📂 Structure du projet
 
-TextMeshPro
-
-Assets 3D (fruits, panier, environnement)
-
-📂 Structure du projet
+```
 Assets/
 │
 ├── Scripts/
@@ -56,40 +65,37 @@ Assets/
     ├── Fruits
     ├── Basket
     └── Environment
-▶️ Comment jouer
-Lancer le jeu (Play)
+```
 
-Observer le score initial (Fruits : 0)
+---
 
-Glisser un fruit dans le panier
+## ▶️ Comment jouer
 
-Le compteur augmente de +1
+1. Lancer le jeu (**Play**)
+2. Observer le score initial : `Fruits : 0`
+3. Glisser un fruit dans le panier
+4. Le compteur augmente automatiquement de **+1**
+5. Répéter l’action pour ajouter d’autres fruits
+6. Cliquer sur **Restart** pour recommencer
 
-Répéter l’action pour ajouter d’autres fruits
+---
 
-Cliquer sur Restart pour recommencer
+## 🔧 Installation
 
-🔧 Installation
-Installer Unity Hub
+1. Installer **Unity Hub**
+2. Créer un nouveau projet 3D
+3. Importer les assets et les scripts
+4. Ouvrir la scène principale `MainScene.unity`
+5. Cliquer sur **Play**
 
-Créer un projet 3D
+---
 
-Importer les assets et les scripts
+## 👩‍🎓 Réalisé par
 
-Ouvrir la scène principale
-
-Cliquer sur Play
-
-👩‍🎓 Réalisé par
-Ayat
-
-Yasmine
+* **HASSAOUI Aya**
+* **ETTOUYJER Yassmine**
 
 Projet réalisé dans le cadre d’un travail académique / projet pédagogique.
 
-📌 Remarques
-Le jeu fonctionne avec la souris
+---
 
-Aucun système VR / XR n’est utilisé
-
-Le code est volontairement simple pour l’apprentissage
